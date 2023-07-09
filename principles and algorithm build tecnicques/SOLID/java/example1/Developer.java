@@ -5,7 +5,7 @@ class Developer extends User implements UserViewer, Role {
     
     private String username;
     private String email;
-    private String roleType = "customer";
+    private String roleType = "developer";
     
     @Override
     public String role(){    
